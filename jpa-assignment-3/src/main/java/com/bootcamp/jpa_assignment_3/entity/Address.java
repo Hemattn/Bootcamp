@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Address {
-    private String StreetNumber;
+    private String StreetNumber;  //Always try to follow Java naming conventions:: streetName
     private String location;
     private String state;
 
